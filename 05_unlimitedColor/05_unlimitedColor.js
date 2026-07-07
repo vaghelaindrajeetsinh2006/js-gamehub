@@ -9,7 +9,7 @@ const randmColor = function () {
 
 // sound effect 
 
-const sound = new Audio('click-mouse.mp3')
+const sound = new Audio('../assets/sounds/click-mouse.mp3')
 
 let Interval;
 const starting = function () {

@@ -9,10 +9,10 @@
 
 
 //   sound effect of  
-   const sound = new Audio("click-error.mp3") 
-   const gameOver = new Audio("game-over.mp3")
-   const gameWin = new Audio('game-win.mp3')
-   const newGameClick = new Audio('click-mouse.mp3')
+   const sound = new Audio("../assets/sounds/click-error.mp3") 
+   const gameOver = new Audio("../assets/sounds/game-over.mp3")
+   const gameWin = new Audio('../assets/sounds/game-win.mp3')
+   const newGameClick = new Audio('../assets/sounds/click-mouse.mp3')
 
  const p  = document.createElement('p')
 

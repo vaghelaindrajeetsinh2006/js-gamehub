@@ -1,6 +1,6 @@
 const btns = document.querySelectorAll('.btn');
 
- const sound = new Audio("click-mouse.mp3")
+ const sound = new Audio("../assets/sounds/click-mouse.mp3")
 
  btns.forEach((btn) => {
     btn.addEventListener('click',function () {

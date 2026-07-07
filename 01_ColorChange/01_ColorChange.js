@@ -5,8 +5,8 @@ const h2 = document.querySelector('h2')
 const click = document.querySelectorAll('.nav-links')
 
 // sound effect 
-const sound = new Audio("color-chang.mp3")
-const clicks = new Audio("click-mouse.mp3")
+const sound = new Audio("../assets/sounds/color-chang.mp3")
+const clicks = new Audio("../assets/sounds/click-mouse.mp3")
 
 click.forEach ( (el) => {
     el.addEventListener ( "click",function() {
