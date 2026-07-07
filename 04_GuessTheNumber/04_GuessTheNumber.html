@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="04_GuessTheNumber.css">
+    <title>🎯 Guess The Number</title>
+</head>
+<body>
+ <!-- ================ Navbar  =========== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JS Game Hub</span>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html" target="_blank">Home</a>
+                <a target="_blank"href="https://www.youtube.com/watch?v=EGqHVjU-fas&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=35">YouTube</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="wrapper">
+        <h1> Number Guessing game</h1>
+        <p>Try and guess a random number between 1 and 100</p>
+        <p>You have 10 attempts to guess the right number</p>
+      <br>
+       
+      <form class="form">
+
+        <label for="guessField" id="guess">Guess a number</label> <br>
+        <input type="text" id="guessField" class="guessField"><br>
+        <input type="submit" id="subt" class="guessSubmit" value="Submit Guess">
+
+      </form>
+
+      <div class="resultParas">
+
+        <p class="rep">previous Guesses : <span class="guesses"></span></p>
+        <p class="rep">Guess Remaining  : <span class="lastResult">10</span></p>
+        <p class="lowOrhi"></p>
+
+      </div>
+    </div>
+
+    <script src="04_GuessTheNumber.js"></script>
+</body>
+</html>

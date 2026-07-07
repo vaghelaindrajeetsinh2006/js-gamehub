@@ -1,0 +1,61 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+        <link rel="stylesheet" href="07_genRandomColor.css">
+        <title>🎲 Guess the random</title>
+    </head>
+    <body>
+    
+
+        <!-- ================ Navbar  =========== -->
+        <header>
+            <nav class="navbar">
+                <div class="logo">
+                    <i class="fa-solid fa-gamepad"></i>
+                    <span>JS Game Hub</span>
+                </div>
+
+                <div class="nav-links">
+                    <a href="index.html" target="_blank">Home</a>
+                    <a target="_blank"href="https://www.youtube.com/watch?v=EGqHVjU-fas&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=35">YouTube</a>
+                </div>
+            </nav>
+        </header>
+
+        <h1> Random color genrater</h1>
+
+        <p class="text">Generate random colors and numbers from 1–50. If the number 25 appears in any box, its color spreads</p>
+        <p class="text">to all boxes and the User wins. The User has 10 attempts per round. If the User fails to win within 10 attempts,</p>
+        <p class="text">the Computer wins and Click New Game to start a fresh round and Click Reset Game to clear all scores and attempts.</p>
+
+
+        <div class="container">
+            <div class="box" id="b-1"></div>
+            <div class="box" id="b-2"></div>
+            <div class="box" id="b-3"></div>
+            <div class="box" id="b-4"></div>
+        </div>
+
+            <div class="btn-container">
+               <button id="start-game">Start Game</button>
+               <button id="new-game">New Game</button>
+               <button id="rest-game">Reset Game</button>
+           </div>
+
+            <p class="attempts"> Total is Attempts : 10</span></p>
+            <p class="user" id="user"> User point : 0</span></p>
+            <p class="computer"> Computer point : 0</span></p>
+
+            <div class="winner-loss "></div>
+
+
+        <div class="winner">
+
+        </div>
+        
+        <script src="07_genRandomColor.js"></script>
+    </body>
+    </html>

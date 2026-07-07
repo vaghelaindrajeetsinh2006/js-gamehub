@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <title>JavaScript Game Hub</title>
+</head>
+<body>
+<!-- ================ Navbar  =========== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>JS Game Hub</span>
+            </div>
+
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+                <a target="_blank"href="https://www.youtube.com/watch?v=EGqHVjU-fas&list=PLu71SKxNbfoBuX3f4EOACle2y-tRC5Q37&index=35">YouTube</a>
+            </div>
+        </nav>
+    </header>
+
+ <!-- ================ step - 1   =========== -->
+
+    <section class="step-1">
+        <h1>JavaScript Mini Games Collection</h1>
+        <p>Learn JavaScript by building and playing interactive mini projects.</p>
+
+        <div class="hero-btns">
+            <button class="primary-btn">Explore Games</button>
+            <button class="secondary-btn">6  Projects</button>
+        </div>
+    </section>
+
+   <!-- ================ Game Section  =========== -->
+
+    <section class="games-section">
+        <div class="section-title">
+            <h2>Featured Projects</h2>
+            <p>Click the Play button to launch any project.</p>
+        </div>
+
+
+        <div class="game-grid">
+            <!-- Card 1 -->
+            <div class="card">
+                <div class="card-icon">🎨</div>
+                <h3>Color Changer</h3>
+                <p>Change page background colors using JavaScript DOM.</p>
+                <span class="level beginner">Beginner</span>
+                <button class= "btn" onclick="window.open('./01_ColorChange.html','_blank')">▶ Play Game</button>
+            </div>
+
+            <!-- Card 2 -->
+
+            <div class="card">
+                <div class="card-icon">🧮</div>
+                <h3>BMI Calculator</h3>
+                <p>Calculate your Body Mass Index with JavaScript.</p>
+                <span class="level beginner">Beginner</span>
+                <button class= "btn" onclick="window.open('./02_BMICalculator.html','_blank')">▶ Play Game</button>
+            </div>
+
+            <!-- Card 3 -->
+
+            <!-- <div class="card">
+                <div class="card-icon">⏰</div>
+                <h3>Digital Clock</h3>
+                <p>Real-time Digital Clock using Date object.</p>
+                <span class="level beginner">Beginner</span>
+                <button class= "btn" onclick="window.open('./03_Digital-Clock.html','_blank')">▶ Play Game</button>
+            </div> -->
+
+            <!-- Card 4 -->
+
+            <div class="card">
+                <div class="card-icon">🎯</div>
+                <h3>Guess The Number</h3>
+                <p>Guess the hidden number with score tracking.</p>
+                <span class="level intermediate">Intermediate</span>
+                <button class= "btn" onclick="window.open('./04_GuessTheNumber.html','_blank')">▶ Play Game</button>
+            </div>
+
+            <!-- Card 5 -->
+
+            <div class="card">
+                <div class="card-icon">🌈</div>
+                <h3>Unlimited Colors</h3>
+                <p>Generate unlimited random colors automatically.</p>
+                <span class="level intermediate">Intermediate</span>
+                <button class= "btn" onclick="window.open('./05_unlimitedColor.html','_blank')">▶ Play Game</button>
+            </div>
+
+            <!-- Card 6 -->
+
+            <!-- <div class="card">
+                <div class="card-icon">⌨️</div>
+                <h3>Keyboard Checker</h3>
+                <p> Detect keyboard events using JavaScript.</p>
+                <span class="level intermediate">Intermediate</span>
+                <button class= "btn" onclick="window.open('./06_keyboard.html','_blank')">▶ Play Game</button>
+            </div> -->
+
+            <!-- Card 7 -->
+
+            <div class="card">
+                <div class="card-icon">🎲</div>
+                <h3>Random Color Generator</h3>
+                <p> Generate beautiful HEX colors with one click.</p>
+                <span class="level advanced">Advanced</span>
+                <button class= "btn" onclick="window.open('./07_genRandomColor.html','_blank')">▶ Play Game</button>
+            </div>
+
+             <!-- Card 7 -->
+
+            <div class="card">
+                <div class="card-icon">✊</div>
+                <h3>Stone Paper Scissors</h3>
+                <p>  Challenge the computer in the classic Rock Paper Scissors game using JavaScript logic.</p>
+                <span class="level beginner">Beginner</span>
+                <button class= "btn" onclick="window.open('./08_stone-paper-scissors.html','_blank')">▶ Play Game</button>
+            </div>
+
+        </div>
+    </section>
+
+       <!-- ================  total section  =========== -->
+
+    <section class="stats">
+
+        <div class="stat-box">
+            <h2>7</h2>
+            <p>Total Projects</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>100%</h2>
+            <p>JavaScript</p>
+        </div>
+
+        <div class="stat-box">
+            <h2>HTML + CSS</h2>
+            <p>Frontend</p>
+        </div>
+
+    </section>
+
+       <!-- ================ footer  =========== -->
+
+    <footer>
+        <h3>Made with ❤️ by Vaghela Indrajeetsinh</h3>
+        <p>JavaScript Practice Projects • 2026</p>
+    </footer>
+
+    <script src="index.js"></script>
+</body>
+</html>
