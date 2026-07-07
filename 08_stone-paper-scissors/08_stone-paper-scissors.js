@@ -8,10 +8,10 @@ const computerScorePara = document.querySelector("#computer-score");
 const restbtn = document.querySelector("#reset-btn")
 
 // sound effect 
-const restSound = new Audio('../assets/sounds/newGame.mp3') 
-const gameOver = new Audio('../assets/sounds/game-over.mp3')
-const gameWin = new Audio('../assets/sounds/game-win.mp3')
-const ClickChoice = new Audio('../assets/sounds/click-mouse.mp3')
+const restSound = new Audio('../assets/sound/newGame.mp3') 
+const gameOver = new Audio('../assets/sound/game-over.mp3')
+const gameWin = new Audio('../assets/sound/game-win.mp3')
+const ClickChoice = new Audio('../assets/sound/click-mouse.mp3')
 
 choice.forEach( (choice) => {
     choice.addEventListener("click",() => {

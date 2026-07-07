@@ -9,7 +9,7 @@ forms.addEventListener('submit',function(e) {
 
     // sound effect
 
-    const sound = new Audio("../assets/sounds/click-error.mp3")
+    const sound = new Audio("../assets/sound/click-error.mp3")
   
 
     if(height === '' || height < 0 || isNaN(height)) {

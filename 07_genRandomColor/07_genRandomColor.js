@@ -32,10 +32,10 @@ function randomNumber () {
  let comPoints = 0;
 
  // sound effect
-  const ClickSound = new Audio("../assets/sounds/click.mp3")
-  const GameOverSound = new Audio("../assets/sounds/game-over.mp3")
-  const GameWinSound = new Audio("../assets/sounds/game-win.mp3")
-  const newGameSound = new Audio('../assets/sounds/newGame.mp3') 
+  const ClickSound = new Audio("../assets/sound/click.mp3")
+  const GameOverSound = new Audio("../assets/sound/game-over.mp3")
+  const GameWinSound = new Audio("../assets/sound/game-win.mp3")
+  const newGameSound = new Audio('../assets/sound/newGame.mp3') 
 
 
 //   click startin game 
