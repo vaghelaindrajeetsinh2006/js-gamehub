@@ -4,11 +4,7 @@ A collection of interactive JavaScript mini projects built using **HTML**, **CSS
 
 ## 🌐 Live Demo
 
-👉 https://vaghelaindrajeetsinh2006.github.io/js-gamehub/
-
-## 📸 Preview
-
-![JS Game Hub](assets/project-preview.png)
+👉 https://vaghelaindrajeetsinh2006.github.io/js-gamehub
 
 ## ✨ Features
 
