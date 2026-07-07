@@ -6,6 +6,10 @@ A collection of interactive JavaScript mini projects built using **HTML**, **CSS
 
 👉 https://vaghelaindrajeetsinh2006.github.io/js-gamehub/
 
+## 📸 Preview
+
+![JS Game Hub](assets/project-preview.png)
+
 ## ✨ Features
 
 - 🎨 Color Scheme Switcher
